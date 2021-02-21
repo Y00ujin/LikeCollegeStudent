@@ -9,14 +9,18 @@
 
 <img width="200px" height="455px" src="./img/1.png">
 
+********************************
+
 ### 2. 메인화면
 
 <img width="200px" height="455px" src="./img/2.png">
 
+********************************
 ### 3. 회원화면
 
 <img width="200px" height="455px" src="./img/3.png">
 
+********************************
 ### 4. 회원수정
 
 <img width="200px" height="455px" src="./img/4.png">
