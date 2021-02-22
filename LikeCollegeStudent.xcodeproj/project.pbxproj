@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A26B70B25E364D100B73AB0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A26B70A25E364D100B73AB0 /* TableViewCell.swift */; };
 		6AF2358525E2A495009D641E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF2358425E2A495009D641E /* AppDelegate.swift */; };
 		6AF2358725E2A495009D641E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF2358625E2A495009D641E /* SceneDelegate.swift */; };
 		6AF2358925E2A495009D641E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF2358825E2A495009D641E /* ViewController.swift */; };
 		6AF2358C25E2A495009D641E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF2358A25E2A495009D641E /* Main.storyboard */; };
 		6AF2358E25E2A497009D641E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF2358D25E2A497009D641E /* Assets.xcassets */; };
 		6AF2359125E2A497009D641E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF2358F25E2A497009D641E /* LaunchScreen.storyboard */; };
+		6AF235A125E2CE9A009D641E /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF235A025E2CE9A009D641E /* MyPageViewController.swift */; };
+		6AF235A425E2D2CB009D641E /* MyPageWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF235A325E2D2CB009D641E /* MyPageWriteViewController.swift */; };
+		6AF235A725E2D2D7009D641E /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF235A625E2D2D7009D641E /* UserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A26B70A25E364D100B73AB0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		6AF2358125E2A495009D641E /* LikeCollegeStudent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikeCollegeStudent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF2358425E2A495009D641E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AF2358625E2A495009D641E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		6AF2358D25E2A497009D641E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AF2359025E2A497009D641E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AF2359225E2A497009D641E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF235A025E2CE9A009D641E /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		6AF235A325E2D2CB009D641E /* MyPageWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageWriteViewController.swift; sourceTree = "<group>"; };
+		6AF235A625E2D2D7009D641E /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				6AF2358625E2A495009D641E /* SceneDelegate.swift */,
 				6AF2358825E2A495009D641E /* ViewController.swift */,
 				6AF2358A25E2A495009D641E /* Main.storyboard */,
+				6A26B70A25E364D100B73AB0 /* TableViewCell.swift */,
+				6AF235A625E2D2D7009D641E /* UserViewController.swift */,
+				6AF235A325E2D2CB009D641E /* MyPageWriteViewController.swift */,
+				6AF235A025E2CE9A009D641E /* MyPageViewController.swift */,
 				6AF2358D25E2A497009D641E /* Assets.xcassets */,
 				6AF2358F25E2A497009D641E /* LaunchScreen.storyboard */,
 				6AF2359225E2A497009D641E /* Info.plist */,
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF235A425E2D2CB009D641E /* MyPageWriteViewController.swift in Sources */,
+				6AF235A725E2D2D7009D641E /* UserViewController.swift in Sources */,
 				6AF2358925E2A495009D641E /* ViewController.swift in Sources */,
 				6AF2358525E2A495009D641E /* AppDelegate.swift in Sources */,
 				6AF2358725E2A495009D641E /* SceneDelegate.swift in Sources */,
+				6A26B70B25E364D100B73AB0 /* TableViewCell.swift in Sources */,
+				6AF235A125E2CE9A009D641E /* MyPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

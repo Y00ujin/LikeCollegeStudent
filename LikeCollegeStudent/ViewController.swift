@@ -13,10 +13,17 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         myPageButton.layer.cornerRadius = 18
     }
-
+    
+    
+    @IBAction func myPageButton(_ sender: Any) {
+        let pushVC = self.storyboard?.instantiateViewController(withIdentifier: "MyPage")
+        
+        // 로그인 성공 ? -> tabBarViewController로 화면 push
+        self.navigationController?.pushViewController(pushVC!, animated: true)
+    }
+    
 
 }
 
